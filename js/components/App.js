@@ -11,6 +11,7 @@ class App extends React.Component {
             <li key={edge.node.id}>{edge.node.name} (ID: {edge.node.id})</li>
           )}
         </ul>
+        <a href=":8081">GraphQl Server</a>
       </div>
     );
   }
